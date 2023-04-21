@@ -316,3 +316,49 @@
         transform: rotate(360deg);
     }
 }
+
+
+/* Collection styles */
+
+.collection__logo__container {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.collection__logo {
+    width: 100%;
+}
+
+.tshirts__collection__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tshirt__colletion {
+    padding: 10px;
+    background-image: url('/images/background-t-shirt-tienda.png');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.colletion__shirt__4 {
+    width: 200px;
+    height: 230px;
+}
+
+.colletion__shirt__6 {
+    width: 250px;
+}
