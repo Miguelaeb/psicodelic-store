@@ -480,3 +480,15 @@
     font-family: "Poppins", sans-serif;
     text-align: justify;
 }
+
+/* Pedidos styles */
+
+.logo__2__conteiner {
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.logo__2 {
+    width: 30%;
+}
