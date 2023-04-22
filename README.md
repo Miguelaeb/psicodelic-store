@@ -1,1 +1,3 @@
-# psicodelic-store
+# Psicodelic store
+
+## Welcome! 👋
