@@ -64,7 +64,7 @@
 
 .contenedor {
     width: 100%;
-    background-image: url("/images/background.png");
+    background-image: url("../images/background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
