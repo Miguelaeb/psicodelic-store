@@ -45,7 +45,7 @@
 }
 
 .active {
-    color: rgba(40, 122, 168, 255) !important; 
+    color: rgba(40, 122, 168, 255) !important;
 }
 
 .right-icons {
@@ -210,7 +210,7 @@
 }
 
 .logo__2__contenedor {
-    width: 50%;
+    width: 40%;
     height: 100%;
 }
 
@@ -269,6 +269,10 @@
     width: 50px;
 }
 
+.linkedin__icon {
+    width: 60px;
+}
+
 .subscripcion__contenedor {
     display: flex;
     flex-direction: column;
@@ -316,6 +320,7 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -343,12 +348,13 @@
 
 @keyframes scroll {
     from {
-      transform: translateX(0%);
+        transform: translateX(0%);
     }
+
     to {
-      transform: translateX(-900%);
+        transform: translateX(-1100%);
     }
-  }
+}
 
 .shopping__line {
     display: flex;
@@ -497,7 +503,7 @@
     width: 30%;
 }
 
-.payment__container {
+.separation {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -505,5 +511,42 @@
 }
 
 .label {
-    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.input {
+    width: 300px;
+    height: 40px;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.payment__button__container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.payment__button {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.payment__button:hover {
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
 }

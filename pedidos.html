@@ -46,34 +46,38 @@
             </div>
 
             <form action="#" method="post" class="payment__container">
-                <div class="nombre__direccion">
-                    <label for="nombre" class="label">Nombre completo:</label><br>
-                    <input type="text" id="nombre" name="nombre"><br>
-                    <label for="direccion" class="label">Dirección:</label><br>
-                    <input type="text" id="direccion" name="direccion">
+                <div class="separation">
+                    <div class="nombre__direccion">
+                        <label for="nombre" class="label">Nombre completo:</label><br>
+                        <input type="text" id="nombre" name="nombre" class="input"><br>
+                        <label for="direccion" class="label">Dirección:</label><br>
+                        <input type="text" id="direccion" name="direccion" class="input">
+                    </div>
+    
+                    <div class="telefono__correo">
+                        <label for="telefono" class="label">Teléfono:</label><br>
+                        <input type="tel" id="telefono" name="telefono" class="input"><br>
+                        <label for="correo" class="label">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" class="input"><br>
+                    </div>
+    
+                    <div class="tarjeta__fecha">
+                        <label for="tarjeta" class="label">Número de tarjeta de crédito:</label><br>
+                        <input type="text" id="tarjeta" name="tarjeta" class="input"><br>
+    
+                        <label for="expiracion" class="label">Fecha de expiración (MM/AA):</label><br>
+                        <input type="text" id="expiracion" name="expiracion" class="input"><br>
+                    </div>
+    
+                    <div class="cvv__container">
+                        <label for="cvv" class="label">CVV:</label><br>
+                        <input type="text" id="cvv" name="cvv" class="input">
+                    </div>
                 </div>
 
-                <div class="telefono__correo">
-                    <label for="telefono" class="label">Teléfono:</label><br>
-                    <input type="tel" id="telefono" name="telefono"><br>
-                    <label for="correo" class="label">Correo electrónico:</label><br>
-                    <input type="email" id="correo" name="correo"><br>
+                <div class="payment__button__container">
+                    <input type="submit" value="Pagar" class="payment__button">
                 </div>
-
-                <div class="tarjeta__fecha">
-                    <label for="tarjeta" class="label">Número de tarjeta de crédito:</label><br>
-                    <input type="text" id="tarjeta" name="tarjeta"><br>
-
-                    <label for="expiracion" class="label">Fecha de expiración (MM/AA):</label><br>
-                    <input type="text" id="expiracion" name="expiracion"><br>
-                </div>
-
-                <div class="cvv__container">
-                    <label for="cvv" class="label">CVV:</label><br>
-                    <input type="text" id="cvv" name="cvv">
-                </div>
-
-                <input type="submit" value="Pagar" class="payment__button">
             </form>
         </section>
 
