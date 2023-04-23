@@ -2,11 +2,9 @@
 
 Welcome to our psychedelic clothing store, where we offer a range of vibrant and colorful clothing inspired by the psychedelic culture. Our selection includes tie-dye shirts, flowy dresses, trippy hoodies, and more, all designed to help you express your individuality and embrace your inner free spirit.
 
-[](https://miguelaeb.github.io/psicodelic-store/)
+[Live URL](https://miguelaeb.github.io/psicodelic-store/)
 
-### Overview
-
-![](../psychedelic-store/design/FireShot%20Capture%20002%20-%20Home%20-%20127.0.0.1.png)
+![Psychedelic Store preview](../psychedelic-store/design/FireShot%20Capture%20002%20-%20Home%20-%20127.0.0.1.png)
 
 ### Used Technologies
 
