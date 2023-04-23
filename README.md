@@ -4,7 +4,7 @@ Welcome to our psychedelic clothing store, where we offer a range of vibrant and
 
 [](https://miguelaeb.github.io/psicodelic-store/)
 
-### Screenshot
+### Overview
 
 ![](../psychedelic-store/design/FireShot%20Capture%20002%20-%20Home%20-%20127.0.0.1.png)
 
