@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Tienda</title>
+    <title>Pedidos</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
             <ul class="left-options">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="tienda.html" ">Tienda</a></li>
-                <li><a href="colecciones.html">Colecciones</a></li>
+                <li><a href=" colecciones.html">Colecciones</a></li>
                 <li><a href="about-us.html">¿Quiénes somos?</a></li>
                 <li><a href="pedidos.html" class="active">Pedidos online</a></li>
             </ul>
@@ -35,16 +35,46 @@
             </ul>
         </nav>
 
-        <section class="tienda__contenedor">
-
+        <section class="pedidos__contenedor">
             <div class="banner__conteiner">
                 <img src="images/pedidos_logo.png" alt="" class="tienda__moving">
-                <img src="images/video_2.gif" alt="" class="banner">                 
+                <img src="images/video_2.gif" alt="" class="banner">
             </div>
 
-            <div class="logo__2__conteiner">
+            <div class="pedidos__logo__conteiner">
                 <img src="images/pedidos_logo_2.png" alt="" class="pedidos__logo__2">
             </div>
+
+            <form action="#" method="post" class="payment__container">
+                <div class="nombre__direccion">
+                    <label for="nombre" class="label">Nombre completo:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="direccion" class="label">Dirección:</label><br>
+                    <input type="text" id="direccion" name="direccion">
+                </div>
+
+                <div class="telefono__correo">
+                    <label for="telefono" class="label">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono"><br>
+                    <label for="correo" class="label">Correo electrónico:</label><br>
+                    <input type="email" id="correo" name="correo"><br>
+                </div>
+
+                <div class="tarjeta__fecha">
+                    <label for="tarjeta" class="label">Número de tarjeta de crédito:</label><br>
+                    <input type="text" id="tarjeta" name="tarjeta"><br>
+
+                    <label for="expiracion" class="label">Fecha de expiración (MM/AA):</label><br>
+                    <input type="text" id="expiracion" name="expiracion"><br>
+                </div>
+
+                <div class="cvv__container">
+                    <label for="cvv" class="label">CVV:</label><br>
+                    <input type="text" id="cvv" name="cvv">
+                </div>
+
+                <input type="submit" value="Pagar" class="payment__button">
+            </form>
         </section>
 
         <div class="footer">
@@ -77,10 +107,14 @@
                 </div>
 
                 <div class="social__media__icons__contenedor">
-                    <a href="https://www.facebook.com/"><img src="images/faceboook.png" alt="" class="facebook__icon social__media__icos"></a>
-                    <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="" class="instagram__icon social__media__icos"></a>
-                    <a href="https://twitter.com/"><img src="images/twitter.png" alt="" class="twitter__icon social__media__icos"></a>
-                    <a href="https://www.linkedin.com/"><img src="images/linkedIn.png" alt="" class="linkedin__icon social__media__icos"></a>
+                    <a href="https://www.facebook.com/"><img src="images/faceboook.png" alt=""
+                            class="facebook__icon social__media__icos"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagram.png" alt=""
+                            class="instagram__icon social__media__icos"></a>
+                    <a href="https://twitter.com/"><img src="images/twitter.png" alt=""
+                            class="twitter__icon social__media__icos"></a>
+                    <a href="https://www.linkedin.com/"><img src="images/linkedIn.png" alt=""
+                            class="linkedin__icon social__media__icos"></a>
                 </div>
             </div>
 
@@ -95,4 +129,5 @@
 
     <script src="JavaScript/main.js"></script>
 </body>
+
 </html>

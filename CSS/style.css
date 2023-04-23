@@ -487,7 +487,7 @@
 
 /* Pedidos styles */
 
-.logo__2__conteiner {
+.pedidos__logo__conteiner {
     text-align: center;
     width: 100%;
     margin: 2rem 0;
@@ -495,4 +495,15 @@
 
 .pedidos__logo__2 {
     width: 30%;
+}
+
+.payment__container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.label {
+    margin-bottom: 1rem;
 }
