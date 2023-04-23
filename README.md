@@ -19,4 +19,4 @@ Welcome to our psychedelic store, where we offer a unique and transformative sho
 ## Author
 
 - LinkedIn - [Miguel Evangelista](https://www.linkedin.com/in/miguel-evangelista-8458b9150/)
-- Github - [Miguel Evangelista](https://github.com/Miguelaeb)
+- Github - [miguelaeb](https://github.com/Miguelaeb)
