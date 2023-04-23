@@ -206,12 +206,16 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    width: 38%;
-    margin: 2rem 0;
+    width: 35%;
+}
+
+.logo__2__contenedor {
+    width: 50%;
+    height: 100%;
 }
 
 .logo__2 {
-    width: 150px;
+    width: 100%;
 }
 
 .contact__contenedor {
@@ -489,6 +493,6 @@
     margin: 2rem 0;
 }
 
-.logo__2 {
+.pedidos__logo__2 {
     width: 30%;
 }
