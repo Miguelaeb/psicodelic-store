@@ -8,7 +8,7 @@ Welcome to our psychedelic clothing store, where we offer a range of vibrant and
 
 ![](../psychedelic-store/design/FireShot%20Capture%20002%20-%20Home%20-%20127.0.0.1.png)
 
-### Built with
+### Used Technologies
 
 - HTML5 
 - CSS 
